@@ -1,0 +1,121 @@
+body {
+    background-color: #f94a2f;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav a {
+    color: rgb(252, 244, 244);
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.7s;
+}
+
+.nav a:hover {
+    background-color: #f3eded;
+    color: black;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 30%; /* Ajusta el ancho de las imágenes */
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    transition: 0.7s;
+}
+
+/* Efecto al pasar el ratón sobre la imagen */
+img:hover {
+    transform: scale(1.1);
+}
+
+.recursos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Centrado de los elementos .card */
+.card {
+    background-color: white;
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center; /* Centra el contenido dentro de la tarjeta */
+}
+
+.card h3 {
+    color: #f50202;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+.imagenes {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    justify-content: center; /* Centra las imágenes */
+    flex-wrap: wrap;
+}
+
+/* Estilos para las imágenes dentro de .imagenes */
+.imagenes img {
+    width: 30%; /* Ajusta el ancho de las imágenes */
+    padding: 20px;
+    border: 18px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    transition: 0.7s;
+}
+
+/* Efecto al pasar el ratón sobre las imágenes */
+.imagenes img:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño de la imagen */
+}
+
+/* Centrado de los videos */
+.videos {
+    display: flex;
+    justify-content: center; /* Centra los videos */
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Estilo para los videos */
+.videos video {
+    width: 30%; /* Ajusta el ancho de los videos */
+    padding: 20px;
+    border: 18px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    transition: 0.7s;
+}
+
+/* Efecto al pasar el ratón sobre los videos */
+.videos video:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño del video */
+}
