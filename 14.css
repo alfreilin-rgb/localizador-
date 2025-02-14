@@ -1,0 +1,99 @@
+body {
+    background-color: #f94a2f;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav a {
+    color: rgb(252, 244, 244);
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.7s;
+}
+
+.nav a:hover {
+    background-color: #f3eded;
+    color: black;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2rem;
+   
+}
+
+header img {
+    max-width: 100%;
+    height: auto;width: 30%; /* Ajusta el ancho de cada tarjeta */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    transition: 0.7s;
+}
+
+img:hover{
+    scale: 1.1; 
+}
+
+
+.recursos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: #f50202;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.card h3 a {
+    color: #f50202;
+    text-decoration: none;
+}
+
+.card h3 a:hover {
+    text-decoration: underline;
+}
+
+.card p {
+    font-size: 14px;
+    color: #333;
+}
+
+.imagenes {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.imagenes img {
+    width: 30%; /* Ajusta el ancho de cada tarjeta */
+    padding: 20px;
+    border: 18px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
